@@ -10,3 +10,53 @@ body {
     color-scheme: dark;
   }
 }
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Adjust for the number of columns */
+  gap: 10px;
+}
+
+.grid-cell {
+  text-align: center;
+  font-size: 32px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.input {
+  font-size: 32px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* ScrabbleWord.css */
+.scrabble-word {
+  display: flex;
+  gap: 8px;
+}
+
+.scrabble-tile {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #333;
+  border-radius: 4px;
+  background-color: #f0d9b5;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  cursor: pointer;
+  user-select: none;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.scrabble-tile:hover {
+  transform: scale(1.1);
+  box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.3);
+}
