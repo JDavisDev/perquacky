@@ -1,8 +1,8 @@
 {
   "name": "perquacky2",
-  "private": true,
+  "private": false,
   "type": "module",
-  "homepage": "https://jdavisdev.github.io/perquacky",
+  "homepage": "https://jdavisdev.github.io/perquacky/",
   "scripts": {
     "build": "cross-env NODE_ENV=production react-router build",
     "dev": "react-router dev",
