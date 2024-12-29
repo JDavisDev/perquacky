@@ -2,7 +2,6 @@ import type { Route } from "./+types/home";
 import { Welcome } from "../welcome/welcome";
 import { useState } from "react";
 import Timer from "~/Timer";
-import { debug } from "util";
 
 export function meta({}: Route.MetaArgs) {
   return [
@@ -43,9 +42,6 @@ export default function Home() {
   };
 
   let dict = '';
-  if (debug) {
-
-  }
   fetch('https://jdavisdev.github.io/perquacky/masterWordList.txt')
   .then(response => response.text())
   .then((data) => {
