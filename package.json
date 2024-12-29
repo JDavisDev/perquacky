@@ -2,11 +2,14 @@
   "name": "perquacky2",
   "private": true,
   "type": "module",
+  "homepage": "https://jdavisdev.github.io/perquacky",
   "scripts": {
     "build": "cross-env NODE_ENV=production react-router build",
     "dev": "react-router dev",
     "start": "cross-env NODE_ENV=production react-router-serve ./build/server/index.js",
-    "typecheck": "react-router typegen && tsc"
+    "typecheck": "react-router typegen && tsc",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@react-router/node": "^7.1.1",
@@ -23,6 +26,7 @@
     "@types/react-dom": "^19.0.1",
     "autoprefixer": "^10.4.20",
     "cross-env": "^7.0.3",
+    "gh-pages": "^6.2.0",
     "postcss": "^8.4.49",
     "tailwindcss": "^3.4.16",
     "typescript": "^5.7.2",
