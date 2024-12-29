@@ -68,7 +68,7 @@ function withErrorBoundaryProps(ErrorBoundary3) {
     return createElement(ErrorBoundary3, props);
   };
 }
-const stylesheet = "/assets/app-CXkT_hJO.css";
+const stylesheet = "/perquacky/assets/app-CXkT_hJO.css";
 const links = () => [{
   rel: "preconnect",
   href: "https://fonts.googleapis.com"
@@ -422,12 +422,12 @@ const route1 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProper
   default: home,
   meta
 }, Symbol.toStringTag, { value: "Module" }));
-const serverManifest = { "entry": { "module": "/assets/entry.client-u-M4TmH-.js", "imports": ["/assets/chunk-K6AXKMTT-DycbfBQN.js"], "css": [] }, "routes": { "root": { "id": "root", "parentId": void 0, "path": "", "index": void 0, "caseSensitive": void 0, "hasAction": false, "hasLoader": false, "hasClientAction": false, "hasClientLoader": false, "hasErrorBoundary": true, "module": "/assets/root-BB1VW_KP.js", "imports": ["/assets/chunk-K6AXKMTT-DycbfBQN.js", "/assets/with-props-BJdOiEPt.js"], "css": [] }, "routes/home": { "id": "routes/home", "parentId": "root", "path": void 0, "index": true, "caseSensitive": void 0, "hasAction": false, "hasLoader": false, "hasClientAction": false, "hasClientLoader": false, "hasErrorBoundary": false, "module": "/assets/home-DElvQg-8.js", "imports": ["/assets/with-props-BJdOiEPt.js", "/assets/chunk-K6AXKMTT-DycbfBQN.js"], "css": [] } }, "url": "/assets/manifest-6c31916f.js", "version": "6c31916f" };
+const serverManifest = { "entry": { "module": "/perquacky/assets/entry.client-u-M4TmH-.js", "imports": ["/perquacky/assets/chunk-K6AXKMTT-DycbfBQN.js"], "css": [] }, "routes": { "root": { "id": "root", "parentId": void 0, "path": "", "index": void 0, "caseSensitive": void 0, "hasAction": false, "hasLoader": false, "hasClientAction": false, "hasClientLoader": false, "hasErrorBoundary": true, "module": "/perquacky/assets/root-BKoel0_s.js", "imports": ["/perquacky/assets/chunk-K6AXKMTT-DycbfBQN.js", "/perquacky/assets/with-props-BJdOiEPt.js"], "css": [] }, "routes/home": { "id": "routes/home", "parentId": "root", "path": void 0, "index": true, "caseSensitive": void 0, "hasAction": false, "hasLoader": false, "hasClientAction": false, "hasClientLoader": false, "hasErrorBoundary": false, "module": "/perquacky/assets/home-DElvQg-8.js", "imports": ["/perquacky/assets/with-props-BJdOiEPt.js", "/perquacky/assets/chunk-K6AXKMTT-DycbfBQN.js"], "css": [] } }, "url": "/perquacky/assets/manifest-1c21b0ee.js", "version": "1c21b0ee" };
 const assetsBuildDirectory = "build\\client";
 const basename = "/";
 const future = { "unstable_optimizeDeps": false };
 const isSpaMode = false;
-const publicPath = "/";
+const publicPath = "/perquacky/";
 const entry = { module: entryServer };
 const routes = {
   "root": {
